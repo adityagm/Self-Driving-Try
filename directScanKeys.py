@@ -2,7 +2,7 @@ import ctypes
 import time
 
 SendInput = ctypes.windll.user32.SendInput
-#with the below decalration we can just import the whole file without actually decalrating the keys in our file
+#with the below declaration we can just import the whole file without actually decalrating the keys in our file
 W = 0x11
 A = 0x1E
 S = 0x1F
